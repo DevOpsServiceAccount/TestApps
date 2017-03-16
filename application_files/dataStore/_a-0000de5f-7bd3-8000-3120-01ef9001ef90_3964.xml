@@ -6,12 +6,17 @@
         <description></description>
         <dataSourceKey>jdbc/AppianBusinessDS</dataSourceKey>
         <adaptingExplicitSqlNames>false</adaptingExplicitSqlNames>
-        <autoUpdateSchema>true</autoUpdateSchema>
+        <autoUpdateSchema>false</autoUpdateSchema>
         <entities>
             <entity>
                 <uuid>ea45a216-dedd-42b2-bf23-1460686dc980</uuid>
                 <name>Test</name>
                 <type>{urn:com:appian:types}TestDataType</type>
+            </entity>
+            <entity>
+                <uuid>cbe5ff58-fa0f-4744-a72d-5befd39b671e</uuid>
+                <name>Testv11</name>
+                <type>{urn:com:appian:types}TestCDTV11</type>
             </entity>
         </entities>
     </dataStore>
