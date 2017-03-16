@@ -1,0 +1,57 @@
+Success (3):
+datatype 1984 {urn:com:appian:types}TestDataType "{urn:com:appian:types}TestDataType"
+dataStore 3993 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_3964 "TestDataSource"
+application 3992 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_4045 "TestApps"
+
+Referenced precedents that were not exported (1):
+user 467095 467095
+
+Trace:
+2017-03-14 06:55:36.412 DEBUG application 3992 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_4045 Begin transport.
+2017-03-14 06:55:36.412 DEBUG application 3992 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_4045 Retrieving object data.
+2017-03-14 06:55:36.415 DEBUG application 3992 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_4045 App associated objects: [datatype=[{urn:com:appian:types}TestDataType],dataStore=[_a-0000de5f-7bd3-8000-3120-01ef9001ef90_3964]]
+2017-03-14 06:55:36.417 DEBUG application 3992 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_4045 Invalid associated objects: []
+2017-03-14 06:55:36.417 DEBUG application 3992 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_4045 Adding valid associated objects to be exported: GlobalBindingMap[datatype={{urn:com:appian:types}TestDataType=1984},dataStore={_a-0000de5f-7bd3-8000-3120-01ef9001ef90_3964=3993}]
+2017-03-14 06:55:36.417 DEBUG application 3992 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_4045 Setting uuids of object references.
+2017-03-14 06:55:36.417 DEBUG application 3992 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_4045 Processing reference: Application.forum
+2017-03-14 06:55:36.417 DEBUG application 3992 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_4045 Processing reference: Application.parent
+2017-03-14 06:55:36.422 DEBUG application 3992 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_4045 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@75e9d741[
+  ContentRole[name=readers,inherit=false,allowForAll=false]
+  ContentRole[name=authors,inherit=false,allowForAll=false]
+  ContentRole[name=administrators,usernames=[467095],inherit=false,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=129:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=true,SEC_INH_ADMIN=false,SEC_INH_EDITOR=false,SEC_INH_VIEWER=false,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2017-03-14 06:55:36.422 DEBUG application 3992 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_4045 Processing reference: ContentRole[name=readers,inherit=false,allowForAll=false]
+2017-03-14 06:55:36.422 DEBUG application 3992 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_4045 Processing reference: ContentRole[name=authors,inherit=false,allowForAll=false]
+2017-03-14 06:55:36.422 DEBUG application 3992 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_4045 Processing reference: ContentRole[name=administrators,usernames=[467095],inherit=false,allowForAll=false]
+2017-03-14 06:55:36.423 DEBUG application 3992 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_4045 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2017-03-14 06:55:36.423 DEBUG application 3992 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_4045 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2017-03-14 06:55:36.423 DEBUG application 3992 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_4045 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2017-03-14 06:55:36.423 DEBUG datatype 1984 {urn:com:appian:types}TestDataType Begin transport.
+2017-03-14 06:55:36.423 DEBUG datatype 1984 {urn:com:appian:types}TestDataType Retrieving object data.
+2017-03-14 06:55:36.442 DEBUG datatype 1984 {urn:com:appian:types}TestDataType Setting uuids of object references.
+2017-03-14 06:55:36.443 DEBUG datatype 1984 {urn:com:appian:types}TestDataType Completing produce.
+2017-03-14 06:55:36.443 DEBUG datatype 1984 {urn:com:appian:types}TestDataType Exporting binary resources.
+2017-03-14 06:55:36.443 DEBUG datatype 1984 {urn:com:appian:types}TestDataType Serializing object to XML.
+2017-03-14 06:55:36.452 DEBUG datatype 1984 {urn:com:appian:types}TestDataType Object transported.
+2017-03-14 06:55:36.456 DEBUG dataStore 3993 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_3964 Begin transport.
+2017-03-14 06:55:36.456 DEBUG dataStore 3993 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_3964 Retrieving object data.
+2017-03-14 06:55:36.459 DEBUG dataStore 3993 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_3964 Setting uuids of object references.
+2017-03-14 06:55:36.459 DEBUG dataStore 3993 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_3964 Processing reference: datatypeRef[id=1984]
+2017-03-14 06:55:36.459 DEBUG dataStore 3993 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_3964 Processing reference: ContentRole[name=administrators,inherit=false,allowForAll=false]
+2017-03-14 06:55:36.459 DEBUG dataStore 3993 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_3964 Processing reference: ContentRole[name=authors,inherit=false,allowForAll=false]
+2017-03-14 06:55:36.459 DEBUG dataStore 3993 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_3964 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2017-03-14 06:55:36.459 DEBUG dataStore 3993 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_3964 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2017-03-14 06:55:36.459 DEBUG dataStore 3993 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_3964 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2017-03-14 06:55:36.459 DEBUG dataStore 3993 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_3964 Processing reference: ContentRole[name=readers,inherit=false,allowForAll=false]
+2017-03-14 06:55:36.459 DEBUG dataStore 3993 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_3964 Completing produce.
+2017-03-14 06:55:36.459 DEBUG dataStore 3993 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_3964 Exporting binary resources.
+2017-03-14 06:55:36.459 DEBUG dataStore 3993 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_3964 Serializing object to XML.
+2017-03-14 06:55:36.474 DEBUG dataStore 3993 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_3964 Object transported.
+2017-03-14 06:55:36.474 DEBUG application 3992 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_4045 Completing produce.
+2017-03-14 06:55:36.474 DEBUG application 3992 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_4045 Exporting binary resources.
+2017-03-14 06:55:36.474 DEBUG application 3992 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_4045 Serializing object to XML.
+2017-03-14 06:55:36.5 DEBUG application 3992 _a-0000de5f-7bd3-8000-3120-01ef9001ef90_4045 Object transported.
